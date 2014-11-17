@@ -467,3 +467,45 @@ a:after {
 	padding-right: 10px;
 	padding-left: 10px;
 }
+
+/* OTHER HERO */
+.masthead{
+	position:relative;
+	padding:80px 15px;
+	color:#FFF;
+	text-align:center;
+	text-shadow:0 1px 0 rgba(0,0,0,.1);
+	background-color:#6883cc;
+	background-image:url("/assets/img/header.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	}
+
+.scrollto, .scrollto:hover {
+	margin:30px;
+	display:block;
+	color:#FFF;
+	text-decoration:none;
+	width:200px;
+	margin:0 auto;
+}
+.scrollto--arrow {
+	padding:10px;
+}
+.scrollto--arrow img {
+	animation: arrowbounce 1s alternate infinite;
+	-moz-animation: arrowbounce 1s alternate infinite; /* Firefox */
+	-webkit-animation: arrowbounce 1s alternate infinite; /* Safari and Chrome */
+	-o-animation: arrowbounce 1s alternate infinite; /* Opera */
+}
+
+.form-control{
+	border-radius:3px;
+	-webkit-box-shadow:none;
+	box-shadow:none;border:0;
+}
