@@ -25,6 +25,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 
+#top h1 {
+  color: #eee;
+}
 
 /* Paragraph & Typographic */
 p {
@@ -87,7 +90,7 @@ a:after {
 	background-position: center center;
 	min-height: 700px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -124,7 +127,7 @@ a:after {
 	background-position: center center;
 	min-height: 500px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -193,7 +196,7 @@ a:after {
 }
 
 #f h3 {
-	color: white;	
+	color: white;
 }
 
 #f i {
@@ -227,7 +230,7 @@ a:after {
 	background-position: center center;
 	min-height: 500px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -342,7 +345,7 @@ a:after {
 .menu a > i {
 	float: left;
 	display: inline-block;
-	vertical-align: middle; 
+	vertical-align: middle;
 	text-align: left;
 	width: 25px;
 	font-size: 14px;
@@ -450,7 +453,7 @@ a:after {
 	cursor: pointer;
 	color: white;
 	background-color: #16a085;
-	
+
 }
 
 /* TEAM CONF */
