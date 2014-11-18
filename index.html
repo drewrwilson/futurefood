@@ -17,7 +17,6 @@
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
     <script src="assets/js/jquery.min.js"></script>
-	  <script src="assets/js/modernizr.custom.js"></script>
 
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
@@ -59,16 +58,17 @@
 
 			<div class="row">
 				<div class="col-md-6 col-sm-12 col-md-offset-3 subscribe">
-					<form class="form-horizontal" role="form" action="subscribe.php" id="subscribeForm" method="POST">
-						<div class="form-group">
-							<div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0">
-								<input class="form-control input-lg" name="email" type="email" id="address" placeholder="Enter your email" data-validate="validate(required, email)" required="required">
-							</div>
-							<div class="col-md-5 col-sm-4">
-								<button type="submit" class="btn btn-success btn-lg">STAY CONNECTED</button>
-							</div>
-						</div>
-					</form>
+					<div id="emailForm"></div>
+            <form id="signup" class="form-horizontal" role="form" action="http://futurefood.us9.list-manage.com/subscribe/post-json?u=099397a90ad4e31e0e218e370&id=7d4a327f6e&c=?" id="subscribeForm" method="post">
+  						<div class="form-group">
+  							<div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0">
+  								<input class="form-control input-lg" name="MERGE0" type="email" id="MERGE0" placeholder="Enter your email" data-validate="validate(required, email)" required="required">
+  							</div>
+  							<div class="col-md-5 col-sm-4">
+  								<button id="submitIt" type="submit" class="btn btn-success btn-lg">STAY CONNECTED</button>
+  							</div>
+  						</div>
+  					</form>
 					<span id="result" class="alertMsg"></span> </div>
 				</div>
 
@@ -175,7 +175,7 @@
 
 	<div id="c">
 		<div class="container">
-			<p>Created by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
+			<p>theme by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
 
 		</div>
 	</div>
@@ -189,6 +189,6 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/smoothscroll.js"></script>
 	<script src="assets/js/main.js"></script>
-  <script type="text/javascript" src="assets/js/mailchimp.js"></script>
+  <script src="assets/js/mailchimp.js"></script>
 </body>
 </html>
